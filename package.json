@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start-dev": "nodemon src/index.js --exec babel-node -e js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
